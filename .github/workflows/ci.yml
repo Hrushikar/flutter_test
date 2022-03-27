@@ -1,10 +1,6 @@
 name: CI
 on:
-<<<<<<< HEAD
 # won't work, change "-main" to "- 'main'" to make it work
-=======
-#won't work, change "-main" to "- 'main'" to make it work
->>>>>>> 0b5355f25325ea979be17b08bdd2fa4e0869183d
   pull_request:
     branches:
       -main
