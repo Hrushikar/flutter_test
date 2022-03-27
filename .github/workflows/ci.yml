@@ -1,6 +1,7 @@
 name: CI
 on:
-  push:
+#won't work, change "-main" to "- 'main'" to make it work
+  pull_request:
     branches:
       -main
 
